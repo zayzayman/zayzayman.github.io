@@ -1,0 +1,21 @@
+#p1{
+    color: blue;
+    font-style: italic;
+    background-color:yellowgreen
+}
+#p2{
+    color: red;
+}
+#bold {
+    font-weight: 100;
+}
+#p3{
+    color: rgb(251, 0, 96);
+    font-family:cursive;
+    background-color: bisque;
+}
+#s1{
+    color: rgb(44, 255, 185);
+    font-family:cursive;
+    background-color: bisque;
+}
