@@ -1,0 +1,41 @@
+#cp1-a  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: aquamarine;
+    padding: 90px;
+}
+
+#cp1-b  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color:#ac859d;
+    padding: 90px;
+}
+#d1-p  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 90px;
+}
+#d2-a  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(255, 82, 82, 0.755);
+    padding: 90px;
+}
+#cp1  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 9px;
+}
+#cp1-d  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(255, 23, 201, 0.755);
+    padding: 90px;
+}
+#cp1-c  {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: rgba(21, 201, 126, 0.755);
+    padding: 90px;
+}
