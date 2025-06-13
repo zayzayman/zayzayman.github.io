@@ -6,3 +6,18 @@
 
     Good luck, and have fun!
 */
+.tetris-block {
+    padding: 20px;
+    border-width: 10px;
+    border-style:outset;
+    display: inline-block;
+}
+.verm   {
+
+    background-color: rgb(40, 56, 56);
+    border-color: aqua;
+}
+    .long {
+    padding: 20px 40px
+    
+}

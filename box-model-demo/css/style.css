@@ -7,7 +7,22 @@ div {
     one value margin targets all four sides of an element.
     Two value margin: the 1st value targets
      the top and the bottom, the second value targets the left abd right.
+     three value margin
+     
+     Three value margin: 1st value targets the top 2nd value targets the left and the right, third value targets the bottom.
+     four value margin targets the top. 2nd value targets the right, 3rd value targets the bottom, 4th
     */
      
-    margin: 24px 80px 200px
+    margin: 24px auto;
+    padding: 200px 36px;
+    background-color: aqua;
 }   
+p {
+        background-color:aqua;
+        width: 200px;
+        padding:  25px;
+        border: 20px
+        text-align; center
+    
+
+    }
