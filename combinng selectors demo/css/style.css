@@ -1,2 +1,21 @@
+#navbar {
+    background-color: blue;
+    padding: 24px;
+    text-align: center;
+}
 
-
+#navbar a {
+    color: aliceblue;
+}
+#item2 {
+    background-color: aqua;
+}
+ul {
+    color:aquamarine
+}
+.ul {
+    color: crimson;
+}
+ul div {
+    color: aqua;
+}
