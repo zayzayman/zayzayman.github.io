@@ -1,0 +1,14 @@
+.display  {
+    margin: 60px 12px 0px;
+    border: 19px outset red; 
+    width: 100px;
+    display: inline-block;  
+}
+.display img {
+    width: 100%;
+    display: block;
+}
+.display div {
+  padding: 4px;
+  box-shadow: inset 2px 2px 2px black;
+}
