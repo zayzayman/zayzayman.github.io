@@ -1,0 +1,20 @@
+* {
+      box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+#two-columns {
+    display: flex;
+}
+#sidebar-content {
+    background-color: lightblue;
+}
+#main-content {
+    background-color: lightgreen;
+}
+#sidebar-content {
+    background-color: lightblue;
+    width: 200px; /* replace flex with width */
+}

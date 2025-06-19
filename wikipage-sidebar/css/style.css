@@ -1,0 +1,22 @@
+#sidebar-content {
+    background-color: rgb(255, 204, 204);
+    width: 200px
+}
+#main-content {
+    background-color:rgb(184, 61, 123);
+
+}
+.bio {
+    color: rgb(0, 0, 0);
+}
+* {
+      box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif; 
+}
+
+.video {
+    margin-left: 700px;
+}

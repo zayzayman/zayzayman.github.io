@@ -1,0 +1,11 @@
+.narrow {
+    width: 700px;
+}
+.narrow2 {
+    width: 90px;
+}
+.narrow {
+    width: 700px;
+    background-color: crimson;
+    display:inline ;
+}
