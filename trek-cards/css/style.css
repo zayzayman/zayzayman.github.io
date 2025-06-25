@@ -1,0 +1,39 @@
+
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.card-style-1 {
+    max-width: 350px;
+    background-color: rgb(255, 255, 255);
+    margin: 30px;
+    border: 100px;
+    box-shadow: 4px 4px 4px;
+}
+img {
+    width: 100%;
+}
+.href {
+    background-color: green;
+}
+.card-style-1 h2 {
+    margin-top: 0px;
+    padding-top: 24px;
+}
+.card-style-1 a {
+    display: block;
+    background-color: green;
+    padding: 24px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #eeffee;
+    text-align: center;
+    transition: opacity 0.25s;
+}
+.card-style-1 a:hover
+ {
+opacity: 0.8;
+}
