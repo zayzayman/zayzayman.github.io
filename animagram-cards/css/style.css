@@ -5,7 +5,34 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
-.card-style-1 {
-
-    border-radius: 50%
+.card-style-2 {
+    max-width: 350px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 10px 30px 100px;
+    padding: 20px;
+}
+ .card-style-2 img {
+    width: 350px;
+    border-radius: 1000px;
+    padding: 30px;
+}
+.brand-name {
+    padding-left: 150px 20px ;
+    font-size: 30px ;
+    margin-left: 90px;
+}
+.animagram-footer {
+   font-size: 20px;
+   padding: 15px;
+   font-weight: 50px;
+   text-align: center;
+   justify-content:space-between;
+   display: flex;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
 }
