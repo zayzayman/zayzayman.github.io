@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#single-column {
+    background-color: rgb(255, 169, 239);
+    width: 90vw;
+    max-width: 1200vw
+}
+#card-container {
+    display: flex;
+}
+
+.card {
+    border: 5px solid #c1c1c1;
+    padding: 30px;
+    text-align: center;
+}
