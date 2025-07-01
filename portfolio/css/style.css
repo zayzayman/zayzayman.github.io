@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+.hero-1 img {
+   width: 400px;
+   height: 450px;
+}
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    border: #fff;
+    padding: 24px;
+    gap: 5px
+}
+img {
+    width: 100%;
+}
+.basic-grid-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+#hero-1 {
+    background-image: url("../images/urban-8zu9s.jpg");
+}
+
+#hero-1 h2 {
+    
+    font-family: "Montserrat", sans-serif;
+}
+h2 {
+    color: antiquewhite;
+    padding: 100px 90px;
+    margin: 0;
+}
+.button {
+    display: inline-block;
+    width: 120px;
+    border: 3px solid #fff;
+    border-radius: 2px;
+    padding: 10px;
+    color: #fff;
+    margin-left: 90px;
+    margin-bottom: 50px;
+}
+#cards-1 {
+    background-color: coral;
+    gap: 30px;
+
+}
+#cards-2  {
+    background-color: rgb(32, 109, 17);
+    font-size:15px;
+    grid-template-columns: ;
+    
+}
+#cards-3  {
+    background-color: rgb(41, 105, 132);
+    font-size:15px;
+    grid-template-columns: ;
+}
+#okane-kasegu {
+    display: flex;
+    gap: 100px;
+}

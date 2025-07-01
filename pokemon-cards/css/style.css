@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.card-container img {
+width: 200px;
+justify-content: center;
+}
+.pokemon-card-1 {
+background-color: yellow;
+
+}
+.energy {
+    font-size: 160px;
+
+}
+.card-style-3 .attack .description {
+    margin: 0px 4px;
+    font-size: 14px;
+}
+.card-style-3 .bold {
+    font-weight: bold;
+    font-size: 14px;
+}
+.card-style-3

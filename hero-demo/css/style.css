@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url(../images/lizard.jpg);
+    height:100dvh;
+    background-position: center;
+    background-size:cover ;
+}
+#hero-1 {
+    font-size: 40px;
+    padding-left: 10px;
+    display: flex;
+    align-items: center;
+}
+#hero-2 {
+    background-image: url("../images/lonely-ocean.jpg");
+}
+#hero-1 h1 {
+    position: absolute;
+    left: 20%;
+    font-size: 120px;
+}
+#hero-2 h2 {
+    font-size: 72px;
+}
+#hero-3 {
+    height: 100vh;
+    background-image: url(../images/orange-wildflowers.jpg);
+    background-size: cover;
+#hero-3 .hero-content {
+}
+#hero-3 {
+    font-size: 14px;
+    display: inline-block;
+    background-color: aquamarine;
+    text-decoration:  none;
+    padding: 24px;
+}
