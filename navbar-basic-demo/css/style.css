@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#navbar {
+    background-color: rgb(3, 173, 11);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navbar img {
+    width: 200px;
+
+}
+#navbar #logo {
+    margin-right: auto;
+}
+#navbar a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 24px;
+    font-weight: auto;
+}
+#navbar .btn {
+    background-color: aliceblue;
+    
+}

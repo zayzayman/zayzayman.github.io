@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.content-column {
+    background-color: rgb(222, 138, 21);
+    width: 2000px;
+    margin: 0px auto;
+    height: 150px;
+}
+#nav-bar {
+    background-color:red;
+    
+}
+.content-column-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(189, 107, 25);
+    height: 60px;
+}  
+img {
+    width: 500px;
+    height: 60;
+}

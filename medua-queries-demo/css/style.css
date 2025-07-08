@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#nav {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+#nav a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 38px;
+    padding: 30px;
+}
+
+@media screen and (max-width: 450px) {
+body {
+    background-color: red;
+}
+}
+@media screen and (max-width: 450px){
+#nav {
+    flex-direction: column;
+    align-items: center;
+}
+}
+.1c {
+    width: 90vw;
+    max-width: 800px
+}
