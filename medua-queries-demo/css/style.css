@@ -16,6 +16,14 @@ body {
     font-size: 38px;
     padding: 30px;
 }
+.featured {
+    background-color: black;
+    color: aliceblue;
+}
+.grid img {
+    height: 300px;
+    border-radius: 24px;
+}
 
 @media screen and (max-width: 450px) {
 body {
@@ -28,7 +36,25 @@ body {
     align-items: center;
 }
 }
-.1c {
-    width: 90vw;
-    max-width: 800px
+.grid p {
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.content h1 {
+    font-size: 28px;
+}
+.intro {
+    gap: 24px;
+}
+.id {
+    height: 20px;
+}
+.grid
+{ 
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 30px;
+    grid-template-areas: "grass";
 }

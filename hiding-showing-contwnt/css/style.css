@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#cards-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.card {
+    flex: 3999px;
+    border: 3px solid rgb(0, 0, 0);
+    margin: 24px;
+    padding: 24px;
+    border-radius: 12px;
+    text-align: center;
+}
+.card a {
+    border: solid black;
+    text-decoration: none;
+    color: black;
+    border: 3px solid black;
+    padding: 12px;
+    margin-top: 36px;
+    display: block;
+}
+#card-1:hover {
+    background-color: aqua;
+    box-shadow: 4px 4px 4px;
+    transform: translate(-19px);
+}
+#card1 {
+    text-decoration: none;
+    color: black;
+    box-shadow: 30px;
+}
+#card-2:hover a {
+    background-color: aqua;
+    box-shadow: 4px 4px 4px 4px red;
+    transform: translate(-8px);
+}
+#card-3 .cards-content {
+    transition: opacity 0.5s;
+}
+#card-3:hover .cards-content {
+    opacity: 0;
+    
+}
+#card-4:hover .cards-content {
+    opacity: 1;
+    visibility: hidden;
+    transition: opacity 0.5s, visibility 0.5s;
+}
+#card-4:hover .cards-content {
+    opacity: 1;
+}
+
+#card-5 {
+    position: relative;
+}
+#card-5 .cards-content {
+    position: absolute;
+    background-color: aliceblue;
+    border: solid 3px black;
+    border-radius: 12px;
+    box-shadow: 4px 4px 4px black;
+    padding: 24px;
+    left: 0px;
+    margin: 0px 9px;
+    visibility: hidden;
+    transition: opacity 0.5s;
+
+}
+#card-5:hover .cards-content {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(-16px);
+}
