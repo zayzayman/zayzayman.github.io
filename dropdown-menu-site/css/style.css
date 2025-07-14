@@ -106,6 +106,6 @@ img {
     }
     #hero-1 {
         background-position: center;
-        height: calc(100vh - 297.5px);
+        height: calc(100vh - 150px);
     }
 }
