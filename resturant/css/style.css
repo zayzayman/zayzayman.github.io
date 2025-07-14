@@ -1,0 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+#heading {
+   background: linear-gradient(rgb(11, 10, 10), rgb(239, 255, 66));
+    height: 100px;
+}
