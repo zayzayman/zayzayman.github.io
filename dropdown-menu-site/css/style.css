@@ -5,3 +5,107 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#navbar {
+    background-color: rgb(141, 63, 63);
+    display: flex;
+    align-items: center;
+}
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+#logo {
+    margin-right: auto;
+}
+#navbar a:hover {
+    background:rgb(0, 0, 0);
+}
+#navbar a {
+    font-size: 25px;
+}
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    
+}
+#hero-1 {
+   background-image: url(../images/mrow.jpg);
+   background-size: cover;
+   height: 800px;
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+}
+.p {
+    font-size:medium
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+   opacity: 0;
+   visibility: hidden;
+   transition:
+    opacity 0.25s,
+    visibility 0.25s;
+    z-index: 10;
+}
+.dropdown-menu {
+    background: rgb(168, 86, 71);
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+#hero-1 h1 {
+    font-size: 150px;
+    color: rgb(255, 162, 41);
+    text-align: center;
+}
+img {
+    border-radius: 40px;
+}
+body {
+    background-color: rgb(156, 74, 49);
+}
+p {
+    font-weight: 30px;
+}
+#description {
+    color: #ddd;
+    margin: 60px;
+    padding: 8px 60px;
+    background-color: rgb(34, 37, 43);
+    border-radius: 48px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+img {
+    align-items: center;
+    margin: auto;
+}
+@media screen and (max-width: 768px){
+    #navbar {
+         flex-direction: column;
+    }
+    img{
+         width: 100%;
+         padding: 10px;
+    }
+    #hero-1 h1 {
+        font-size: 50px;
+    }
+    #hero-1 {
+        background-position: center;
+        height: calc(100vh - 297.5px);
+    }
+}
