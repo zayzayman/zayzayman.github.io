@@ -22,3 +22,240 @@ h1 {
 #heading a:hover {
     color:                     rgb(251, 255, 10);
 }
+#hero-1 {
+    background-image: url("../images/finedine.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: flex-end;
+    position: relative;
+   
+}
+#hero-1 h2 {
+    font-size: 72px;
+    position: absolute;
+    right: 20%;
+    bottom: 50%;
+}
+#hero-1 h2 {
+color: aliceblue;
+font-size: 110px;
+}
+#hero-1 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    right: 20%;
+    bottom: 41%;
+    justify-content: center;
+    
+}
+body {
+    background-color: #000000;
+    color: #ffffff;
+
+}
+#navbar a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 12px 12px 12px 0px;
+}
+#navbar-column,
+.center-column {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0px 24px;
+}
+.center-column img {
+    width: 100%;
+}
+.center-column {
+    display:flex;
+    align-items: flex-start;
+    gap: 60px;
+    margin-top: 20px;
+}
+.center-column .text {
+    flex: 1;
+}
+.layout-2 {
+    background-color: #fce63f;
+    padding: 36px 0px;
+}
+.layout-2 h2 {
+    color: #000000;
+    margin: auto;
+    text-align: center;
+}
+.image-container {
+    height: 300px;
+    flex: 1;
+}
+.center-column .image-container img {
+    height: 100%;
+}
+img {
+    object-fit: cover;
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    color: #ffff51;
+    padding: 48px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    height: 500px;
+}
+.card {
+    flex: 1;
+    border: 3px solid #ffffff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+.card img {
+    height: 270px;
+}
+
+.card-2 {
+    flex: 1;
+    border: 3px solid #ffffff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+.card-2 p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+.card-2 h3 {
+
+    font-size: 36px;
+    margin: 24px 0px 0px;
+}
+.featured-dish-2 img {
+    height: 270px;
+    width: 280px;
+    padding-bottom: 20px;
+}
+.card-2 h3 {
+    padding: auto;
+    padding-bottom: 10px;
+}
+.item-1 {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+.item-1 {
+    background-color: #e1da00;
+    color: #070a0b;
+    padding: 48px;
+}
+.item-1 {
+    flex: 1;
+    border: 3px solid #ffffff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    height: 500px;
+}
+.item-1 h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.item-2 p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+.item-2 {
+    background-color: #e1da00;
+    color: #000000;
+    padding: 48px;
+}
+.item-2 {
+    flex: 1;
+    border: 3px solid #ffffff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    height: 500px;
+}
+.item-2 h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.item-2 p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+.item-3 p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+.item-3 {
+    background-color: #e1da00;
+    color: #000000;
+    padding: 48px;
+}
+.item-3 {
+    flex: 1;
+    border: 3px solid #ffffff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    height: 500px;
+}
+.item-3 h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.item-3 p {
+    font-size: 24px;
+}
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: space-between;
+  gap: 50px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 25px auto 0px;
+}
+.menu .item {
+    flex: 300px;
+    text-align: center;
+}
+.menu .item img {
+    width: 100%;
+    height: 300px;
+}
