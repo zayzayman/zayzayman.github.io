@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.title h2{
+justify-content: center;
+margin: auto;
+margin-left: auto;
+text-align: center;
+padding-top: 30px;
+color: rgb(0, 0, 0);
+font-size: 35px;
+}
+.Superbowl h1 {
+justify-content: center;
+margin: auto;
+margin-left: auto;
+text-align: center;
+padding-top: 30px;
+font-size: 90px;
+}
+.Date h4 {
+    margin: auto;
+margin-left: auto;
+text-align: center;
+padding-top: 30px;
+}
+body {
+    color: rgb(32, 125, 94);
+    background-color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    color: rgb(7, 122, 84);
+    padding: 48px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    flex: 1;
+    border: 3px solid #000000;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    height: 600px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+.card img {
+    height: 300px;
+}
+.VS {
+    margin: auto;
+    align-items: center;
+    padding-top: 30px;
+    font-size: 30px;
+    color: #000000;
+    font-style: initial;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.card h1 {
+    font-size: 30px;
+    margin-top: 15px;
+    text-align: center;
+    display: flex;
+}
+
+.team-name h1 {
+    padding-left: 90px;
+}
+
+#cowboys {
+    justify-content: space-evenly;
+    margin: auto;
+    display: flex 1;
+    text-align: right;
+    padding-right: 50px;
+    width: 100%;
+
+    
+}
+.Address {
+    text-align: center;
+    font-size: 20px;
+}
+.text-container {
+ border: #000000;
+ flex-wrap: wrap;
+ margin-top: 50px;
+ text-align: center;
+ font-style: italic;
+ border: solid rgb(11, 9, 4);
+ font-family: "Roboto Mono", monospace;
+}
+
+
+
+.text-container h2 {
+    font-size: 40px;
+}
+.text-container a {
+    display: inline-block;
+    background-color: rgba(84, 198, 95, 0.841);
+    color: #000000;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 36px;
+    margin-left: 12px;
+}
+#outro {
+    color: #000000;
+    margin-top: 40px;
+}
