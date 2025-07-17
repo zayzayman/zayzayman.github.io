@@ -30,15 +30,14 @@ h1 {
     display: flex;
     flex-direction: column; 
     justify-content: center; 
-    align-items: flex-end;
-    position: relative;
+    align-items:center;
+    
+ 
    
 }
 #hero-1 h2 {
     font-size: 72px;
-    position: absolute;
-    right: 20%;
-    bottom: 50%;
+    margin-top: 0;
 }
 #hero-1 h2 {
 color: aliceblue;
@@ -51,9 +50,6 @@ font-size: 110px;
     color: white;
     text-decoration: none;
     padding: 24px;
-    position: absolute;
-    right: 20%;
-    bottom: 41%;
     justify-content: center;
     
 }
@@ -67,6 +63,7 @@ body {
     text-decoration: none;
     display: inline-block;
     padding: 12px 12px 12px 0px;
+    align-items: center;
 }
 #navbar-column,
 .center-column {
